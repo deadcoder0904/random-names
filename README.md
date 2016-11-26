@@ -2,7 +2,7 @@
 
 > :game_die: Generate Random Names Each Time :star2:
 
-# Screenshots
+# Screenshot
 
 ![Random Names](http://imgur.com/bTHzBao.png)
 
