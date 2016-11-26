@@ -2,6 +2,10 @@
 
 > :game_die: Generate Random Names Each Time :star2:
 
+# Screenshots
+
+![Random Names](http://imgur.com/bTHzBao.png)
+
 ## License
 
 [MIT](LICENSE.md) © [Akshay Kadam](https://github.com/deadcoder0904)
