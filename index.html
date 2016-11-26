@@ -2,21 +2,48 @@
 <html>
 
 <head>
-	<title>Github Emojis</title>
+	<title>Random Names</title>
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 	<link rel='stylesheet' href='css/tachyons.min.css'/>
 	<link rel='stylesheet' href='css/style.css'/>
 </head>
 
-<body class='bg-blue'>
+<body class='bg-dark-green'>
 	<div class='app tc'>
 		
-		<h1 class='header bg-navy courier grow dib pa4 br4 white'>
-			<i class='em em-octocat'></i> EMOJIS <i class='em em-stuck_out_tongue_winking_eye'></i>
-		</h1>
+		<header>
+			<div id="title" class="pa4 b f1 bg-dark-blue light-blue">
+				RANDOM NAMES
+			</div>
+		</header>
+
+		<div id="form">
+			<div class="dt-ns dt--fixed-ns">
+			  <div class="dtc-ns tc pv4 bg-black-10">
+					<h3 class="light-blue f3 ttu">Number of Random Names: </h3>
+					<input type="number" name='amount' value="1" class="pa2 input-reset ba bg-transparent hover-white w-90 tc" />
+			  </div>
+			  <div class="dtc-ns tc pv4 bg-black-05">
+					<h3 class="light-blue f3 ttu">Select the gender: </h3>
+					<input type="radio" name="gender" value="male" id="m" checked="checked" class="pa2 ba bg-transparent hover-white tc" /> 
+					<label for="m">Male</label>
+					<input type="radio" name="gender" id="f" value="female" class="pa2 ba bg-transparent hover-white tc" /> 
+					<label for="f">Female</label>
+			  </div>
+			  <div class="dtc-ns tc pv4 bg-black-10">
+					<h3 class="light-blue f3 ttu">Enter the Region: </h3>
+					<div id="contents">
+						
+					</div>   
+			  </div>
+			</div>
+			<div class="pa4">
+				<button class="f6 white pointer br2 ba ph3 pv2 mb2 dib bg-dark-blue bw2 w5" id="generate">Generate</button>
+			</div>
+		</div>
 
 		<div id='app'>
-        
+			
 		</div>
 
 	</div>
