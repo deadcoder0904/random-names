@@ -17,7 +17,6 @@ function handleData(data) {
 	var json = JSON.parse(data);
 	var c = 0;
 	var app = $('#app');
-	console.log(json);
   for(var i = 0; i < json.length; i++) {
 		if(c % 2 == 0) {
 			arr.push("<div class='dt dt--fixed'>");
